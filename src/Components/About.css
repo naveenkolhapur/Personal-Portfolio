@@ -1,0 +1,102 @@
+.about-section{
+    background-color: #171717;
+    position: relative;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.about-content{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ height: 100%;
+ justify-content: center;
+}
+
+.profile-pic{
+    box-shadow:-2rem -2rem 0 0 #DA0037;
+}
+
+.Heading{
+    color: #ededed;
+}
+
+.hr-line{
+    background-color: #DA0037;
+    min-width: 15%;
+    height: 3px!important;
+    margin-top: -2px!important;
+    opacity: 100%;
+}
+
+.about-intro{
+    color: #ededed;
+}
+
+
+
+
+
+.sub-heading{
+    color: #ededed;
+    padding-bottom: 5px;
+    border-bottom: #DA0037 2px solid;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.skills-list{
+    list-style: none;
+    margin-left: -30px;
+}
+
+.skilss-item{
+  display: inline-block;
+  color: #ededed;
+  padding: 5px;
+  border: #DA0037 2px solid;
+  margin:5px;
+}
+
+.skilss-item:hover{
+    background-color: #DA0037;
+    color: #ededed;
+}
+
+.Download-btn{
+    padding: 15px;
+    border-radius: 25px;
+    background-color: #DA0037;
+    color: #ededed;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 14px;
+    transition: all .2s linear;
+    margin-left: 5px;
+    
+}
+
+.Download-btn:hover{
+    background-color: transparent;
+    outline: #DA0037 3px solid;
+    color:#DA0037;
+}
+
+@media only screen and (max-width: 768px){
+    .second-col{
+        margin-top: 30px;
+    }  
+}
+
+@media only screen and (max-width: 500px){
+    .profile-pic{
+        box-shadow:-1rem -1rem 0 0 #DA0037;
+        width: 300px;
+    }
+}

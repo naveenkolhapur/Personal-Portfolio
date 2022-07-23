@@ -1,0 +1,103 @@
+.portfolio-section{
+    background-color: #171717;
+    position: relative;
+    padding-top: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Heading{
+    color: #ededed;
+    text-align: center;
+}
+
+.line{
+    background-color: #DA0037;
+    max-width: 15%;
+    height: 3px!important;
+    margin-top: -2px!important;
+    opacity: 100%;
+    margin: auto;
+}
+
+.menu-tabs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.menu-btn{
+    background-color: #DA0037;
+    padding: 10px;
+    color: #ededed;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    margin: 10px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu-btn:hover{
+    outline: #DA0037 3px solid;
+    background: transparent;
+    color:#DA0037;
+}
+
+.card-body{
+   background-color: #444444;
+   color: #ededed;
+   border-radius: 0 0px 0 12px;
+}
+
+.card{
+border-radius: 0px 12px 0px 12px;
+overflow: hidden!important;
+background-color: #ededed;
+}
+
+.card img{
+    border-radius: 0 12px 0 0;
+    transition: all .2s linear;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+    overflow: hidden!important;
+}
+
+.visit-btn{
+    background-color: #DA0037;
+    color: #ededed;
+    margin-right: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.visit-btn:hover{
+    outline: #DA0037 2px solid!important;
+    background-color: transparent;
+    color: #ededed!important;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 768px){
+    .cards-col{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
