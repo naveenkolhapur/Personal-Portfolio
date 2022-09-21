@@ -42,6 +42,15 @@ const ProjectData = [
         description: "Grocerry Bud App with Neumorphism Effect done using HTML/CSS/JavaScript.",
         demo: "https://naveenkolhapur.github.io/Javascript-Projects/Grocerry%20Bud%20App%20with%20Neumorphism%20Effect/",
         category:"Javascript"
+    },
+
+    {
+        id: 6,
+        image: "./Images/Crypto-Tracker-App.jpg",
+        title: "Crypto-Tracker-App",
+        description: "Crypto-Tracker-App, keeping track of all trending coins and much more.",
+        demo: "https://naveenkolhapur.github.io/Crypto-Tracker-App/",
+        category:"React-JS"
     }
 
 ]
