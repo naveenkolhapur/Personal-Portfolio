@@ -44,15 +44,6 @@ const ProjectData = [
         category:"Javascript"
     },
 
-    {
-        id: 6,
-        image: "./Images/Crypto-Tracker-App.jpg",
-        title: "Crypto-Tracker-App",
-        description: "Crypto-Tracker-App, keeping track of all trending coins and much more.",
-        demo: "https://naveenkolhapur.github.io/Crypto-Tracker-App/",
-        category:"React-JS"
-    }
-
 ]
 
 export default ProjectData
