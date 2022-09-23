@@ -43,7 +43,7 @@ const ProjectData = [
         demo: "https://naveenkolhapur.github.io/Javascript-Projects/Grocerry%20Bud%20App%20with%20Neumorphism%20Effect/",
         category:"Javascript"
     },
-
+    
     {
         id: 6,
         image: "./Images/Crypto-Tracker-App.jpg",
